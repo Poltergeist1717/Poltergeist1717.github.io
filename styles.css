@@ -436,7 +436,11 @@ section.benefits{
 
 .benefits_ul_div{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 1.5rem;
+    padding: 1.9rem;
+}
+
+.benefits_ul_div h2{
+    color: purple;
 }
 
 /* ==================== Start section css code ============================ */
