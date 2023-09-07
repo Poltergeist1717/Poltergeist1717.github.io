@@ -225,6 +225,7 @@ section{
 /* ==================== Intro section css code ============================ */
 
 section.intro{
+    min-height: 100vh;
     height: 100%;
     width: 100%;
     padding: 6rem;
@@ -261,6 +262,7 @@ div.intro img{
 /* ==================== Home section css code ============================ */
 
 section.home{
+    min-height: 100vh;
     height: 100%;
     width: 100%;
     padding: 6rem;
@@ -321,6 +323,7 @@ div.home_image img{
 /* ==================== Features section css code ============================ */
 
 section.features{
+    min-height: 100vh;
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -392,6 +395,7 @@ div.feature_h4{
 /* ==================== Benefits section css code ============================ */
 
 section.benefits{
+    min-height: 100vh;
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -432,6 +436,7 @@ section.benefits{
 /* ==================== Start section css code ============================ */
 
 section.start{
+    min-height: 100vh;
     height: 100%;
     width: 100%;
     justify-content: center;
