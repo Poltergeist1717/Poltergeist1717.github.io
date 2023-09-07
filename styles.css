@@ -136,6 +136,78 @@ ul.navlist{
     opacity: 0;
 }
 
+@media (max-width: 768px) {
+    /* Adjust styles here */
+
+    /* Adjust Font Sizes */
+    body {
+        font-size: 16px; /* Reduce font size for readability */
+    }
+
+    /* Modify Layouts */
+    .container {
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    /* Hide or Show Elements */
+    .menu {
+        display: none; /* Hide complex menu */
+    }
+    .menu-button {
+        display: block; /* Show mobile-friendly menu button */
+    }
+
+    /* Change Navigation */
+    .nav {
+        flex-direction: column; /* Stack navigation vertically */
+    }
+
+    /* Reduce Padding and Margins */
+    .section {
+        margin: 10px 0; /* Reduce vertical spacing */
+    }
+
+    /* Resize Images */
+    img {
+        max-width: 100%; /* Scale down images to fit screen */
+        height: auto;
+    }
+
+    /* Adjust Columns */
+    .column {
+        width: 100%; /* Full-width columns on small screens */
+    }
+
+    /* Simplify Forms */
+    input[type="text"] {
+        width: 100%; /* Full-width text input */
+    }
+
+    /* Responsive Navigation */
+    .navbar {
+        display: none; /* Hide standard navigation bar */
+    }
+    .mobile-nav {
+        display: block; /* Show mobile-friendly navigation */
+    }
+
+    /* Touch-Friendly Buttons */
+    button {
+        padding: 10px; /* Increase button padding for touch */
+    }
+
+    /* Fluid Containers */
+    .fluid-container {
+        width: 100%; /* Fluid container width */
+    }
+    
+    /* Optimize Performance */
+    img.lazy-load {
+        opacity: 0; /* Hide lazy-loaded images */
+    }
+}
+
+
 /* ==================== General Sections css code ============================ */
 
 section{
